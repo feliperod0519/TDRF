@@ -44,7 +44,7 @@ export class RecipeListComponent implements OnInit, OnDestroy {
     s.next('WoRlD');
     s.subscribe(x=>console.log(x));
     s.next('hElLo');
-    s.next('wOrLd-->:) JA');
+    s.next('wOrLd-->:) JA-->');
   }
 
   onNewRecipe() {
